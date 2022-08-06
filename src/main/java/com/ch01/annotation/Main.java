@@ -17,15 +17,7 @@ public class Main {
         System.out.println(employee.getName());
         System.out.println(employee.getDepartment().getName());
         
-        
-        Employee employee1 = ctx.getBean(Employee.class);
-        
-        if (employee == employee1) {
-        	System.out.println("Equals");
-        } else {
-        	System.out.println("Not Equals");
-        }
-        
+      
 		((ClassPathXmlApplicationContext)ctx).close();
 	}
 }

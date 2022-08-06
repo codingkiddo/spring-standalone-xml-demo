@@ -13,7 +13,9 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>5.0.1.RELEASE</spring.version>
+		<spring.version>5.3.20</spring.version>
+		<!-- AspectJ -->
+		<aspectj.version>1.7.4</aspectj.version>
 	</properties>
 
 	<dependencies>
@@ -40,33 +42,20 @@
 			<version>${spring.version}</version>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-jdbc</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-aop</artifactId>
-			<version>${spring.version}</version>
-		</dependency>
+		
+<!-- AspectJ dependencies -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
 			<artifactId>aspectjrt</artifactId>
-			<version>1.9.2</version>
+			<version>${aspectj.version}</version>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.aspectj</groupId>
-			<artifactId>aspectjweaver</artifactId>
-			<version>1.9.2</version>
+			<artifactId>aspectjtools</artifactId>
+			<version>${aspectj.version}</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
-		<dependency>
-			<groupId>javax.annotation</groupId>
-			<artifactId>javax.annotation-api</artifactId>
-			<version>1.3.2</version>
-		</dependency>
+		
 
 	</dependencies>
 	
