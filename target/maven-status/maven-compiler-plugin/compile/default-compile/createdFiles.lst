@@ -1,8 +1,0 @@
-com/spring/jdbc/domain/JdbcSpittleRepository.class
-com/spring/jdbc/domain/Spitter.class
-com/spring/jdbc/domain/JdbcSpitterRepository.class
-com/spring/jdbc/domain/JdbcSpittleRepository$SpittleRowMapper.class
-com/spring/jdbc/domain/Spittle.class
-com/spring/jdbc/domain/SpittleRepository.class
-com/spring/jdbc/domain/JdbcSpitterRepository$SpitterRowMapper.class
-com/spring/jdbc/domain/SpitterRepository.class
